@@ -1,0 +1,54 @@
+body {
+    background-image: url("op.jpg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px red;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    background: grad;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
